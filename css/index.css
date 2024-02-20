@@ -1,0 +1,32 @@
+
+.search-form {
+  display: flex;
+  height: 2rem;
+  margin-top: 2rem;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-input {
+  border: none;
+  border-radius: 2rem;
+  background: none;
+  margin-left: 1rem;
+}
+
+.search-input, textarea {
+  background-color: #E2E8F0;
+  width: 50rem;
+}
+
+.search-button img {
+  height: 1.5rem;
+  width: auto;
+}
