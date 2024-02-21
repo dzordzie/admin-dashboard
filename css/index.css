@@ -1,9 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
   font-size: 1rem;
   display: grid;
-  width: 100%;
-  height: 100%;
   grid-template-areas: "dashboard main-header"
     "dashboard main-content";
   grid-template-columns: 1fr 5fr;
@@ -12,8 +12,19 @@ body {
 
 .dashboard {
   grid-area: dashboard;
-  font-size: 1.25rem;
+  color: #FFFFFF;
+  background-color: #1992D4;
+  padding: 2rem 3rem 0 2rem;
 }
+
+.dashboard-navigation {
+  margin-top: 3rem
+}
+
+.dashboard-settings {
+  margin-top: 3rem
+}
+
 
 .main-content {
   grid-area: main-content;
@@ -21,6 +32,7 @@ body {
 
 .main-header {
   grid-area: main-header;
+  box-shadow: 0 0.05rem 0.5rem -0.05rem #c1c6cc;
 }
 
 ul,
@@ -28,8 +40,6 @@ h2 {
   margin: 0;
   padding: 0;
 }
-
-
 
 .dashboard-title {
   display: flex;
@@ -39,15 +49,22 @@ h2 {
 
 .dashboard-title img {
   height: 2.5rem;
+  filter: invert();
   margin-right: 0.5rem;
 }
 
 li {
   list-style: none;
+  margin-top: 1rem;
+}
+
+li:first-child {
+  margin: 0;
 }
 
 li a {
   text-decoration: none;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
 }
@@ -55,6 +72,7 @@ li a {
 a img {
   height: 1.25rem;
   margin-right: 1rem;
+  filter: invert();
 }
 
 .main-navigation {
@@ -68,15 +86,20 @@ a img {
 
 .user-tools {
   display: flex;
-  height: 2rem;
+  align-items: center;
   margin-top: 2rem;
 }
 
 /* ==== SEARCH FORM STYLING ==== */
 
-.search-button {
+.search-form {
   display: flex;
+  margin-left: 2.5rem;
   align-items: center;
+  height: 2.5rem;
+}
+
+.search-button {
   border: none;
   background: none;
   margin: 0;
@@ -84,23 +107,25 @@ a img {
 }
 
 .search-button img {
-  height: 1.5rem;
+  height: 1.75rem;
   width: auto;
 }
 
 .search-input {
+  margin: 0;
+  padding: 0;
   border: none;
   border-radius: 2rem;
   background: none;
   margin-left: 1rem;
+  height: 2.5rem;
 }
 
 .search-input,
 textarea {
-  padding-left: 1rem;
+  padding-left: 1.75rem;
   color: #797c80;
   background-color: #E2E8F0;
-  width: 50rem;
 }
 
 .search-input:focus,
