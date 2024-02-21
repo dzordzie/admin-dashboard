@@ -1,2 +1,2 @@
 # Admin Dashboard
-![alt text](http://url/to/img.png](https://github.com/dzordzie/admin-dashboard/blob/main/documentation/dashboard-project.png)https://github.com/dzordzie/admin-dashboard/blob/main/documentation/dashboard-project.png](https://github.com/dzordzie/admin-dashboard/blob/main/documentation/dashboard-project.png?raw=true)https://github.com/dzordzie/admin-dashboard/blob/main/documentation/dashboard-project.png?raw=true)
+![alt text](https://github.com/dzordzie/admin-dashboard/blob/main/documentation/dashboard-project.png)
