@@ -8,6 +8,7 @@ body {
     "dashboard main-content";
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 4fr;
+  position: absolute;
 }
 
 .dashboard {
@@ -15,6 +16,7 @@ body {
   color: #FFFFFF;
   background-color: #1992D4;
   padding: 2rem 3rem 0 2rem;
+  z-index: 1;
 }
 
 .dashboard-navigation {
@@ -28,11 +30,13 @@ body {
 
 .main-content {
   grid-area: main-content;
+  background-color: #E2E8F0;
 }
 
 .main-header {
   grid-area: main-header;
-  box-shadow: 0 0.05rem 0.5rem -0.05rem #c1c6cc;
+  box-shadow: 0 0.05rem 0.5rem -0.05rem #464646;
+  z-index: 0;
 }
 
 ul,
